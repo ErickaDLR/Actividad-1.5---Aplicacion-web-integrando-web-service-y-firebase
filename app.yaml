@@ -1,0 +1,9 @@
+runtime: python39
+
+handlers:
+  - url: /
+    static_files: index.html
+    upload: index.html
+  - url: /app.js
+    static_files: app.js
+    upload: app.js
